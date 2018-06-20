@@ -1,14 +1,14 @@
 # Fable Elmish para la Meetup
 
-* npm install -g fable-compiler
-* npm init
-* npm install --save fable-core fable-compiler
+* npm/yarn install -g fable-compiler
+* npm/yarn init
+* npm/yarn install --save fable-core fable-compiler
 * dotnet new -i Fable.Template.Elmish.React::*
 * dotnet new fable-elmish-react -n counter
-* yarn install
+* npm/yarn install
 * cd src
 * dotnet restore
-* dotnet fable yarn-start
+* dotnet fable-npm-start/fable yarn-start
 
 Ejemplos en https://github.com/elmish/templates
 
