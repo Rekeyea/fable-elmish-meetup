@@ -1,3 +1,18 @@
+# Fable Elmish para la Meetup
+
+* npm install -g fable-compiler
+* npm init
+* npm install --save fable-core fable-compiler
+* dotnet new -i Fable.Template.Elmish.React::*
+* dotnet new fable-elmish-react -n counter
+* yarn install
+* cd src
+* dotnet restore
+* dotnet fable yarn-start
+
+Ejemplos en https://github.com/elmish/templates
+
+
 # Fable.Elmish.React Template
 
 This template can be used to generate a simple web app with [Fable](http://fable.io/) and [Elmish](https://fable-elmish.github.io/).
